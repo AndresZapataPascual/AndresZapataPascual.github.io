@@ -1,0 +1,87 @@
+/*UNIVERSAL*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*MENU SUPERIOR*/
+.Menu{
+    width: 100%;
+    margin: 5px auto;
+    padding: 10px;
+    background: #1bceb6;
+    border: 5px solid #044138;
+    position: fixed;
+}
+
+.Menu ul{
+    list-style: none;
+    align-items: center;  
+    margin: 5px 300px;
+}
+
+.Menu li{
+    display: inline-block;
+}
+
+.Menu ul li a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    color: rgb(253, 253, 253);
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 300ms ease;
+}
+.Menu ul li a:hover{
+    transform: scale(1.1);
+    background: #044138;
+}
+
+header{
+    width: 100%;
+    height: 40%;
+}
+
+header img{
+    margin-top: 100px;
+    width: 100%;
+    height:76%;
+}
+
+/*TABLA*/
+
+table{
+    margin-top: 50px;
+    width: 80%;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+table, th, td{   
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+/* PIE DE PAGINA*/
+div#PiedePagina{background: #333;color: #fff}
+div#PiedePagina p{margin: 5px; padding:25px}
+div#PiedePagina{clear:left; width:100%}
+div#PiedePagina{position: absolute; bottom: 0; width: 100%;}
+
+
+
+
+body{font: 76% arial, sans-serif;padding-bottom: 7.4em; position: relative; text-align:center}
+
+p{margin:0 10px 1opx}
+a{display:block;color: #981793;padding:10px}
+
+
+
