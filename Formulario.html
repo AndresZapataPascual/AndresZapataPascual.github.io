@@ -5,6 +5,8 @@
         <title>FORMULARIO</title>
         
         <link href="css/estilo4.css" rel="stylesheet" type="text/css"/>
+
+        <script src="jss/Validacion.js"></script>
     </head>
 
     <body>
@@ -25,7 +27,7 @@
             <div class="Contenedor_Central">
                 <H1>FORMULARIO DE INGRESO VISITANTES</H1>
      
-                <form>
+                <form id="formulario">
                  <input type="text" name="name" id="nombre" placeholder="Ingrese su Nombre">
      
                  <input type="text" name="direccion" id="Dirección" placeholder="Ingrese la Dirección">
@@ -38,8 +40,12 @@
      
                  <input type="number" name="edad" id="edad" placeholder="Ingrese su Edad">
      
-                 <input id="enviar" type="submit" value="ENVIAR">
+                 <input id="enviar" type="submit" onclick="return enviarformulario()" value="ENVIAR">
                 </form>
+
+                <div id="error">
+
+                </div>
              </div>
         </center>
         
